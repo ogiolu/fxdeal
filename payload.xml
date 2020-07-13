@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8' ?> 
+<SSC> <User> <Name>PK1</Name> </User> 
+<SunSystemsContext>
+ <BusinessUnit>NG1</BusinessUnit>
+ <BudgetCode>A</BudgetCode> 
+ </SunSystemsContext> 
+ <MethodContext>
+	 <LedgerPostingParameters> 
+		 <SuspenseAccount>999998</SuspenseAccount> 
+		 <TransactionAmountAccount>999998</TransactionAmountAccount> 
+		 <ReportingAccount>999998</ReportingAccount> 
+		 <PostingType>2</PostingType> 
+		 <SupressSubstitutedMessages>Y</SupressSubstitutedMessages> 
+	 </LedgerPostingParameters> 
+</MethodContext> 
+ <Payload> 
+ <Ledger> 
+ <Line> 
+	 <AccountCode>341231</AccountCode> 
+	 <AccountingPeriod>0112019</AccountingPeriod> 
+	 <AnalysisCode1>ADD</AnalysisCode1> 
+	 <AnalysisCode2>00</AnalysisCode2> 
+	 <AnalysisCode3>50-00</AnalysisCode3> 
+	 <AnalysisCode4>00</AnalysisCode4> 
+	 <AnalysisCode5>department</AnalysisCode5> 
+	 <AnalysisCode6>00</AnalysisCode6> 
+	 <AnalysisCode7>00</AnalysisCode7> 
+	 <AnalysisCode8>00</AnalysisCode8> 
+	 <DebitCredit>C</DebitCredit> 
+	 <Description>This is Test Journal </Description> 
+	 <EntryDate>sys date</EntryDate> 
+	 <JournalSource>Payroll</JournalSource> 
+	 <TransactionDate>01012020</TransactionDate> 
+	 <TransactionAmount>amount</TransactionAmount> 
+	 <JournalType>PJ</JournalType> 
+	 <TransactionReference>Remita ref</TransactionReference> 
+ </Line> 
+ </Ledger> 
+ </Payload> 
+ </SSC>

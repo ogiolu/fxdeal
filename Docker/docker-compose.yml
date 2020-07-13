@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+
+  myapp-mysql:
+    image: mysql:8.0
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=fxapp
+      - MYSQL_USER=appuser
+      - MYSQL_PASSWORD=password
+    ports:
+      - 3306:3306
+      
+    -v C:\Users\TEMP\Documents\dockerbuild :/var/lib/mysql
